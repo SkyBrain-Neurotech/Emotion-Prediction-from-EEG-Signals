@@ -18,7 +18,7 @@ Activity Session – EEG signals recorded during a tasks.
 
 How to record EEG?
 
-BrainFlow EEG Recording Tool
+EEG Recording Tool
 
 A python script for recording EEG data from Muse S and BrainBit devices using the BrainFlow API.
 
