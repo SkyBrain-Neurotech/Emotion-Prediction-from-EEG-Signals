@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+message UserInfo {
+    string name = 1;
+    string device_name = 2;
+}
+
+message SessionDetails {
+    string activity_type = 1;
+    string baseline_file_path = 2;
+    string activity_file_path = 3;
+}
+
+message SessionRequest {
+    UserInfo user_info = 1;
+    SessionDetails session_details = 2;
+    repeated string baseline_file_chunks = 3;
+    repeated string activity_file_chunks = 4;
+    float threshold = 5;
+}
+
+message SessionResponse {
+    string json_output = 1;
+}
+
+service EEGSessionService {
+    rpc AnalyzeSession (SessionRequest) returns (SessionResponse);
+}
