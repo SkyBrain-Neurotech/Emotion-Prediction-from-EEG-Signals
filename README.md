@@ -28,7 +28,9 @@ We have porvided a python script for recording EEG data from Muse S and BrainBit
 - Simple command-line interface
 
 ### Usage
-python eeg_recorder.py --device [muse|brainbit] --duration [seconds]
+python eeg_recorder.py --device [muse|brainbit] --duration [seconds] 
+
+### `pip install brainflow numpy pandas`
 
 ### Arguments
 - `--device`: Device type (muse or brainbit)
