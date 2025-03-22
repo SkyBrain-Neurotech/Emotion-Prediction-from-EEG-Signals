@@ -46,7 +46,7 @@ The CSV contains columns for:
 - timestamp (Unix time in seconds)
 - EEG channel data (TP9, AF7, AF8, TP10 for Muse S or T3, T4, O1, O2 for BrainBit)
 
-## This repository contains protocol buffer definitions and generated stubs for a gRPC service that manages EEG sessions.
+## This repository contains protocol buffer definitions and generated stubs for the Emotion Prediction AI Service that manages EEG sessions.
 
 #### eeg_session_service.proto: Protocol Buffer definition file that specifies the service interfaces and message types for the EEG session service.
 #### eeg_session_service_pb2.py: Auto-generated Python code containing message class definitions derived from the proto file.
