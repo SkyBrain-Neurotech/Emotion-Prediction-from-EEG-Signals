@@ -13,4 +13,41 @@ How It Works
 This service is designed to help users understand how their brain responds to different conditions by analyzing relaxation trends across:
 
 Baseline State – EEG signals recorded in a relaxed, resting condition.
-Activity Session – EEG signals recorded during a tas
+Activity Session – EEG signals recorded during a tasks.
+
+
+How to record EEG?
+
+BrainFlow EEG Recording Tool
+
+A python script for recording EEG data from Muse S and BrainBit devices using the BrainFlow API.
+
+ Features
+
+- Records EEG data from Muse S or BrainBit devices
+- Saves data in CSV format with proper Unix timestamps
+- Reports actual vs. expected sampling rates
+- Automatic session UUID generation for file naming
+- Simple command-line interface
+
+Usage
+python eeg_recorder.py --device [muse|brainbit] --duration [seconds]
+
+Arguments
+- `--device`: Device type (muse or brainbit)
+- `--duration`: Recording duration in seconds
+
+Example
+python eeg_recorder.py --device brainbit --duration 5
+
+This will record EEG data from a BrainBit device for 5 seconds and save it to a CSV file.
+
+The CSV contains columns for:
+- timestamp (Unix time in seconds)
+- EEG channel data (TP9, AF7, AF8, TP10 for Muse S or T3, T4, O1, O2 for BrainBit)
+
+
+
+
+
+
