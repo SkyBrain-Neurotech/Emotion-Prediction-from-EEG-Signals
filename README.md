@@ -25,8 +25,6 @@ We have porvided a python script for recording EEG data from Muse S and BrainBit
 
 - Records EEG data from Muse S or BrainBit devices
 - Saves data in CSV format with proper Unix timestamps
-- Reports actual vs. expected sampling rates
-- Automatic session UUID generation for file naming
 - Simple command-line interface
 
 ### Usage
