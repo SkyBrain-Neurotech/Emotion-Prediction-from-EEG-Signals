@@ -1,7 +1,7 @@
 # Emotion-Prediction-from-EEG-Signals
 SNET AI Service
 
-This AI-powered EEG analysis service processes uploaded EEG data to assess relaxation levels by comparing baseline and activity session brainwave patterns. Users record EEG sessions, upload the data, and receive AI-driven insights on how their relaxation state changes between resting and active conditions.
+This AI-powered EEG analysis service processes uploaded EEG data to assess relaxation levels by comparing baseline and activity session brainwave patterns. Users record EEG sessions, upload the data, and receive insights on how their relaxation state changes between resting and active conditions.
 
 How It Works
 
