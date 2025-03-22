@@ -13,6 +13,7 @@ How It Works
 This service is designed to help users understand how their brain responds to different conditions by analyzing relaxation trends across:
 
 Baseline State – EEG signals recorded in a relaxed, resting condition.
+
 Activity Session – EEG signals recorded during a tasks.
 
 
