@@ -17,7 +17,7 @@ Baseline State – EEG signals recorded in a relaxed, resting condition.
 Activity Session – EEG signals recorded during a tasks.
 
 
-How to record EEG?
+#How to record EEG?
 
 EEG Recording Tool
 
