@@ -12,9 +12,9 @@ This AI-powered EEG analysis service processes uploaded EEG data to assess relax
 
 This service is designed to help users understand how their brain responds to different conditions by analyzing relaxation trends across:
 
-### Baseline State – EEG signals recorded in a relaxed, resting condition.
+#### Baseline State – EEG signals recorded in a relaxed, resting condition.
 
-### Activity Session – EEG signals recorded during a tasks.
+#### Activity Session – EEG signals recorded during a tasks.
 
 
 ## How to record EEG?
