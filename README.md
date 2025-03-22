@@ -30,7 +30,7 @@ We have porvided a python script for recording EEG data from Muse S and BrainBit
 ### Usage
 `pip install brainflow numpy pandas`
 
-python eeg_recorder.py --device [muse|brainbit] --duration [seconds] 
+`python eeg_recorder.py --device [muse|brainbit] --duration [seconds] `
 
 ### Arguments
 - `--device`: Device type (muse or brainbit)
@@ -38,7 +38,7 @@ python eeg_recorder.py --device [muse|brainbit] --duration [seconds]
 
 ### Example
 
-python eeg_recorder.py --device brainbit --duration 5
+`python eeg_recorder.py --device brainbit --duration 5`
 
 This will record EEG data from a BrainBit device for 5 seconds and save it to a CSV file.
 
