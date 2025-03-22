@@ -19,7 +19,7 @@ This service is designed to help users understand how their brain responds to di
 
 ## How to record EEG?
 
-We have porvided a python script for recording EEG data from Muse S and BrainBit devices using the BrainFlow API.
+We have provided a python script for recording EEG data from Muse S and BrainBit devices using the BrainFlow API.
 
 ### Features
 
