@@ -46,6 +46,14 @@ The CSV contains columns for:
 - timestamp (Unix time in seconds)
 - EEG channel data (TP9, AF7, AF8, TP10 for Muse S or T3, T4, O1, O2 for BrainBit)
 
+## This repository contains protocol buffer definitions and generated stubs for a gRPC service that manages EEG sessions.
+
+### eeg_session_service.proto: Protocol Buffer definition file that specifies the service interfaces and message types for the EEG session service.
+### eeg_session_service_pb2.py: Auto-generated Python code containing message class definitions derived from the proto file.
+### eeg_session_service_pb2_grpc.py: Auto-generated Python code containing gRPC client and server classes for the service.
+### eeg_session_service_pb.js: Auto-generated JavaScript code containing message class definitions for browser or Node.js clients.
+### eeg_session_service_pb_service.js: Auto-generated JavaScript code containing gRPC service definitions for JavaScript clients.
+
 
 
 
