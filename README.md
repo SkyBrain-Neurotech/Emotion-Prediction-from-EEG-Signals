@@ -38,6 +38,7 @@ Arguments
 - `--duration`: Recording duration in seconds
 
 Example
+
 python eeg_recorder.py --device brainbit --duration 5
 
 This will record EEG data from a BrainBit device for 5 seconds and save it to a CSV file.
